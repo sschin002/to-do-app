@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-router.use("/", (req, res) => {
-  res.send("app is running");
-});
+// router.use("/", (req, res) => {
+//   res.send("app is running");
+// });
 
 const apiRouter = require("./routes.api");
 

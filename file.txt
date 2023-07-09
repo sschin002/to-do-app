@@ -1,0 +1,19 @@
+initialize github
+create folder server and client
+initialize server (init nodemon...)
+    server setup
+    app running
+    route seperation
+    routing pages(no routes.ui)
+    create folder modules
+        1 todos
+        2 subtasks
+    database connection
+        mongoose
+        bodyparser for json
+    model files
+        todos subtasks
+    controller for both
+    routing api controller
+    test using postman
+    

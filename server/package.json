@@ -1,0 +1,25 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "todo application using mern",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "to-do-app"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Sachin Shrestha",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "router": "^1.3.8"
+  }
+}

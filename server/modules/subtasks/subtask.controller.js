@@ -8,7 +8,16 @@ const create = (payload) => {
 
 const list = () => {
   // pagination
-  return SubtaskModel.find();
+  return SubtaskModel.aggregate([
+    {
+      $lookup: {
+        from: "subtasks",
+        localField: "_id",
+        foreignField: "todo_id",
+        as: "subtasks",
+      },
+    },
+  ]);
 };
 
 const getById = (id) => {

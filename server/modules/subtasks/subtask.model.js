@@ -8,4 +8,4 @@ const subTaskSchema = mongoose.Schema({
   todo_id: { type: ObjectId, ref: "Todo" }, //reference to todo model in database
 });
 
-module.export = mongoose.model("Subtask", subTaskSchema);
+module.exports = mongoose.model("Subtask", subTaskSchema);

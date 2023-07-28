@@ -3,12 +3,12 @@ const TodoModel = require("./todo.model");
 //
 const create = (payload) => {
   // writing in
-  console.log("test000", payload);
+  // console.log("test000", payload);
   return TodoModel.create(payload);
 };
 
 const list = () => {
-  // pagination
+  // pagination--conmplex aggregation
   return TodoModel.find();
 };
 

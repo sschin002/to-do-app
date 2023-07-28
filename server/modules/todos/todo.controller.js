@@ -2,7 +2,8 @@ const TodoModel = require("./todo.model");
 
 //
 const create = (payload) => {
-  // writing in DB
+  // writing in
+  console.log("test000", payload);
   return TodoModel.create(payload);
 };
 

@@ -5,4 +5,4 @@ const todoSchema = mongoose.Schema({
   status: { type: String, enum: ["pending", "completed"], default: "pending" },
 });
 
-module.export = mongoose.model("Todo", todoSchema);
+module.exports = mongoose.model("Todo", todoSchema);

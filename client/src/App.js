@@ -1,5 +1,5 @@
 function App() {
-  return <div className="App">Hello World</div>;
+  return <></>;
 }
 
 export default App;

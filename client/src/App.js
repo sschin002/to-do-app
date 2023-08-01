@@ -1,5 +1,10 @@
+import Title from "./components/Title";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Title name="Sachin Shrestha" />
+    </>
+  );
 }
 
 export default App;

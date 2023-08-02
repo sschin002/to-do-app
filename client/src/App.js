@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <Title name="TODO APP" />
-      <Example />
+      <Example isGoal={false} />
     </>
   );
 }

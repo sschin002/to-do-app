@@ -3,6 +3,7 @@ import Example from "./components/Example";
 import Garage from "./components/Logical";
 import Ternary from "./components/Ternary";
 import List from "./components/List";
+import Hook from "./components/Hook";
 function App() {
   const cars = ["Ford", "BMW", "Audi", "Buggati"];
 
@@ -13,6 +14,7 @@ function App() {
       <Garage cars={cars} />
       <Ternary isGoal={true} />
       <List cars={cars} />
+      <Hook />
     </>
   );
 }

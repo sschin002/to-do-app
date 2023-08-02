@@ -1,12 +1,10 @@
-import React from "react";
-
 function Example() {
-  const shoot = () => {
-    alert("goal");
+  const shoot = (a) => {
+    alert(a);
   };
   return (
     <>
-      <button onClick={shoot}>Take th shot!</button>
+      <button onClick={() => shoot("goal")}>Take the shot!</button>
     </>
   );
 }

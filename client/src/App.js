@@ -1,8 +1,10 @@
 import Title from "./components/Title";
+import Example from "./components/Example";
 function App() {
   return (
     <>
-      <Title name="Sachin Shrestha" />
+      <Title name="TODO APP" />
+      <Example />
     </>
   );
 }

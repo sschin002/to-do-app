@@ -5,6 +5,7 @@ import Ternary from "./components/Ternary";
 import List from "./components/List";
 import Hook from "./components/Hook";
 import ArrayHook from "./components/ArrayHook";
+import Timer from "./components/Effect";
 function App() {
   const cars = ["Ford", "BMW", "Audi", "Buggati"];
 
@@ -17,6 +18,7 @@ function App() {
       <List cars={cars} />
       <Hook />
       <ArrayHook />
+      <Timer />
     </>
   );
 }

@@ -1,6 +1,8 @@
 .title{
-    display: "flex";
-    align-items: "center";
-    justify-content: "center";
-    height: "100vh";
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    background-color: #0909;
+    /* height: 500px;
+    width: 1570px; */
 }

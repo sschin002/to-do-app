@@ -6,7 +6,7 @@ import List from "./components/List";
 import Hook from "./components/Hook";
 import ArrayHook from "./components/ArrayHook";
 import Timer from "./components/Effect";
-import CustomHook from "./components/CustomHook";
+import CustomHook from "./components/CustomHook1";
 import "./style.css";
 function App() {
   const cars = ["Ford", "BMW", "Audi", "Buggati"];
